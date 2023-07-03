@@ -14,6 +14,12 @@ body {
   /* transform-origin: 0% 0% 0px; */
 }
 
+@media only screen and (max-width: 400px) {
+  #main {
+    transform: scale(2);
+  }
+}
+
 .spinner {
   --spin-time: 4100;
   position: relative;
@@ -210,8 +216,8 @@ body {
   border: 0;
   background: transparent;
   padding: 0;
-  width: 1.8vw;
-  height: 1.8vw;
+  width: 2.8vw;
+  height: 2.2vw;
   background-color: red;
   border-radius: 100%;
   cursor: pointer;
